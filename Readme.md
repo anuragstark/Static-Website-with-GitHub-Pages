@@ -6,13 +6,15 @@
 
 Create these files in a new folder on your computer:
 
-**index.html** (copy the HTML from the artifact above)
+**index.html** 
 
 **styles.css** (optional - for external CSS):
 ```css
 /* You can move the CSS from the <style> tags to this external file */
 /* Then link it in your HTML with: <link rel="stylesheet" href="styles.css"> */
 ```
+
+## Project Overview
 
 # My GitHub Pages Website
 
@@ -29,7 +31,6 @@ A modern static website built with HTML, CSS, and JavaScript, deployed on GitHub
 
 ## Local Development
 Simply open `index.html` in your browser to view locally.
-```
 
 ### 2. Create GitHub Repository
 
@@ -50,7 +51,7 @@ Simply open `index.html` in your browser to view locally.
 
 **Method B: Command Line (if you have Git installed)**
 ```bash
-git clone https://github.com/anuragstark/Static-Website-with-GitHub-Pages.git
+git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 # Copy your index.html file here
 git add .
@@ -99,11 +100,12 @@ git push origin main
 your-repo-name/
 ├── index.html          # Main page (required)
 ├── about.html          # Additional pages
-├── images/            # Images and assets
+├── images/             # Images and assets
 │   ├── logo.png
 │   └── background.jpg
-└── README.md          # Project documentation
+└── README.md           # Project documentation
 ```
 
+## Notes
 
 Your GitHub Pages site will automatically update whenever you push changes to your repository.
